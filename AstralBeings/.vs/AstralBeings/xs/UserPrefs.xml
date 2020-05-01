@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{7AEF369C-F276-0B25-FC5F-687B4FD92645}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RepeatQuestion.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BackgroundMusic.cs">
     <Files>
       <File FileName="Assets/Scripts/RepeatQuestion.cs" Line="28" Column="1" />
+      <File FileName="Assets/Scripts/BackgroundMusic.cs" Line="28" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,7 +10,7 @@
           <Node name="AstralBeings" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="RepeatQuestion.cs" selected="True" />
+                <Node name="BackgroundMusic.cs" selected="True" />
               </Node>
             </Node>
           </Node>
