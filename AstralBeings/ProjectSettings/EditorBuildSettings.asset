@@ -8,4 +8,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Legs.unity
+    guid: e6580655334e5422ea9626c911b8443b
+  - enabled: 1
+    path: Assets/Scenes/Body.unity
+    guid: 2a080ab8ee6a74e49b35932ec68d6dba
+  - enabled: 1
+    path: Assets/Scenes/Arms.unity
+    guid: d9faf740f8d4041859d7756285ba89a3
+  - enabled: 1
+    path: Assets/Scenes/Hair.unity
+    guid: 7706e3176cd8040d19cc831e80f86a27
+  - enabled: 1
+    path: Assets/Scenes/Nose.unity
+    guid: bc629860e8ccd4634a969558aea5bf87
+  - enabled: 1
+    path: Assets/Scenes/Eyes.unity
+    guid: d085d63a2771141469da1c5f892ee203
+  - enabled: 1
+    path: Assets/Scenes/Reveal.unity
+    guid: 6a826de5952ee42929a81e78548caf0e
   m_configObjects: {}
