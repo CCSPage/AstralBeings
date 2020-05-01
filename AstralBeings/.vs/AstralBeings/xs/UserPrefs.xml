@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{7AEF369C-F276-0B25-FC5F-687B4FD92645}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RepeatQuestion.cs">
+    <Files>
+      <File FileName="Assets/Scripts/RepeatQuestion.cs" Line="19" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AstralBeings" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="RepeatQuestion.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f967397a-871a-4c2a-9af3-ee7650eae249" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
