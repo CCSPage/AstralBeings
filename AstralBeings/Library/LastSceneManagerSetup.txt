@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Intro.unity
+=======
+- path: Assets/Scenes/Nose.unity
+>>>>>>> 7c23ca5c980c360cc2f2d5a79e34dcc1cebcc154
   isLoaded: 1
   isActive: 1
   isSubScene: 0
