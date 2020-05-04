@@ -64,10 +64,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BackgroundMusic.cs" />
+    <Compile Include="Assets\Scripts\Creator.cs" />
     <Compile Include="Assets\Scripts\LevelTransition.cs" />
+    <Compile Include="Assets\Scripts\Mouse.cs" />
+    <Compile Include="Assets\Scripts\Outline.cs" />
+    <Compile Include="Assets\Scripts\PosData.cs" />
     <Compile Include="Assets\Scripts\RepeatQuestion.cs" />
     <Compile Include="Assets\Scripts\Screenshot.cs" />
     <Compile Include="Assets\Scripts\ScreenshotGame.cs" />
+    <None Include="Assets\SpriteOutline\Shaders\SpriteOutline.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/gksck/Desktop/AstralBeings/AstralBeings/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
