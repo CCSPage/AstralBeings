@@ -525,7 +525,7 @@ Transform:
   m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &37012567
 MonoBehaviour:
@@ -551,7 +551,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 56fdc5d2366f7854397991d3c1baea5d, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1183,7 +1183,7 @@ Transform:
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.4}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1439319177
 MonoBehaviour:
@@ -1209,7 +1209,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 56fdc5d2366f7854397991d3c1baea5d, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1790,7 +1790,7 @@ Transform:
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.4}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &1557915480
 PolygonCollider2D:
@@ -1965,7 +1965,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 56fdc5d2366f7854397991d3c1baea5d, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2249,7 +2249,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 6439486f561f246a080c90f4e0f590f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2273,7 +2273,7 @@ Transform:
   m_LocalScale: {x: 0.39373, y: 0.39373, z: 0.39373}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &1746606481
 PolygonCollider2D:
@@ -2291,7 +2291,7 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5156416, y: 0.54357296}
     oldSize: {x: 16.68, y: 22.24}
     newSize: {x: 16.68, y: 22.24}
     adaptiveTilingThreshold: 0.5
@@ -2500,7 +2500,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 56fdc5d2366f7854397991d3c1baea5d, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2909,7 +2909,7 @@ PrefabInstance:
     - target: {fileID: 3652681366372190241, guid: 68e1de612b9d69d40b4b91c194def615,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2
+      value: 1.85
       objectReference: {fileID: 0}
     - target: {fileID: 3652681366375644579, guid: 68e1de612b9d69d40b4b91c194def615,
         type: 3}
@@ -2919,7 +2919,7 @@ PrefabInstance:
     - target: {fileID: 3652681366375644579, guid: 68e1de612b9d69d40b4b91c194def615,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3652681366375644579, guid: 68e1de612b9d69d40b4b91c194def615,
         type: 3}
@@ -2949,7 +2949,7 @@ PrefabInstance:
     - target: {fileID: 3652681366375644579, guid: 68e1de612b9d69d40b4b91c194def615,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3652681366375644579, guid: 68e1de612b9d69d40b4b91c194def615,
         type: 3}
@@ -2971,6 +2971,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Avatar
       objectReference: {fileID: 0}
+    - target: {fileID: 3652681366392988623, guid: 68e1de612b9d69d40b4b91c194def615,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.73
+      objectReference: {fileID: 0}
     - target: {fileID: 3652681366678292717, guid: 68e1de612b9d69d40b4b91c194def615,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -2980,6 +2985,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3652681367873308884, guid: 68e1de612b9d69d40b4b91c194def615,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68e1de612b9d69d40b4b91c194def615, type: 3}
