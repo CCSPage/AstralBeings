@@ -8,7 +8,7 @@ public class ScreenshotGame : MonoBehaviour
 
     private void Awake()
     {
-        w = Screen.width/2;
+        w = Screen.width;
         h = w;
     }
     void Start()

@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\BackgroundMusic.cs" />
     <Compile Include="Assets\Scripts\Creator.cs" />
     <Compile Include="Assets\Scripts\LevelTransition.cs" />
+    <Compile Include="Assets\Scripts\Mouse.cs" />
     <Compile Include="Assets\Scripts\Outline.cs" />
     <Compile Include="Assets\Scripts\PosData.cs" />
     <Compile Include="Assets\Scripts\RepeatQuestion.cs" />
