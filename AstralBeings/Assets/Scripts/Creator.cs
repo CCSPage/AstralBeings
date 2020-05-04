@@ -7,9 +7,11 @@ public class Creator : MonoBehaviour
     private AudioSource audioSource;
     public Transform[] Avatar;
     public Transform tt;
-    public GameObject[] AvatarObj;
+    //public GameObject[] AvatarObj;
     public bool move = false;
     private int i;
+
+    public Vector3 v3;
 
     void Awake()
     {
@@ -18,22 +20,27 @@ public class Creator : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        v3 = this.gameObject.transform.position;
     }
 
     void Update()
     {
         MouseDetect();
         if (move) {
-            tt.position = Vector2.Lerp(tt.position, Avatar[i].position, Time.deltaTime*5f);
-            tt.rotation = Quaternion.Lerp(tt.rotation, Avatar[i].rotation, Time.deltaTime*5f);
-            float dist = Vector2.Distance(tt.position, Avatar[i].position);
+           
+                tt.position = Vector2.Lerp(tt.position, Avatar[i].position, Time.deltaTime * 5f);
+                tt.rotation = Quaternion.Lerp(tt.rotation, Avatar[i].rotation, Time.deltaTime * 5f);
+                float dist = Vector2.Distance(tt.position, Avatar[i].position);
 
-            if (dist < 0.03) {
-                
-                tt.position = Avatar[i].position;
-                tt.rotation = Avatar[i].rotation;
-                move = false;
-            }
+
+                if (dist < 0.03)
+                {
+
+                    tt.position = Avatar[i].position;
+                    tt.rotation = Avatar[i].rotation;
+                    move = false;
+                    
+                }
             
         }
         //MouseSound();
@@ -101,14 +108,16 @@ public class Creator : MonoBehaviour
                 if (hit.collider.gameObject.tag == "Legs")
                 {
                     i = 4;
-                    move = true;
+                    move = true; 
                 }
                 if (hit.collider.gameObject.tag == "Nose")
                 {
                     i = 5;
                     move = true;
                 }
-                hit.collider.gameObject.transform.parent = Avatar[i].transform;
+  
+                    hit.collider.gameObject.transform.parent = Avatar[i].transform;
+
             }
 
         }
