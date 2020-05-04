@@ -30,7 +30,8 @@ public class Outline : MonoBehaviour
    
     void OnMouseExit()
     {
-        gameObject.GetComponent<Renderer>().material.SetFloat("_OutlineEnabled", 0);
+        gameObject.GetComponent<Renderer>().material.SetFloat("_OutlineEnabled", 0); 
+		audioS.Stop(); 
     }
     void GetMouseInfo()
     {
