@@ -1,10 +1,17 @@
 ﻿<Properties StartupConfiguration="{7AEF369C-F276-0B25-FC5F-687B4FD92645}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RepeatQuestion.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ResetAvatar.cs">
     <Files>
       <File FileName="Assets/Scripts/RepeatQuestion.cs" Line="29" Column="33" />
       <File FileName="Assets/Scripts/BackgroundMusic.cs" />
       <File FileName="Assets/Scripts/Outline.cs" />
       <File FileName="Assets/Scripts/PosData.cs" />
+      <File FileName="Assets/Scripts/Creator.cs" />
+      <File FileName="Assets/Scripts/LevelTransition.cs" />
+      <File FileName="Assets/Scripts/RemoveAvatar.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/FaceBook.cs" />
+      <File FileName="Assets/Scripts/FacebookButton.cs" />
+      <File FileName="Assets/Scripts/Mouse.cs" />
+      <File FileName="Assets/Scripts/ResetAvatar.cs" Line="29" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +19,7 @@
           <Node name="AstralBeings" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="RepeatQuestion.cs" selected="True" />
+                <Node name="ResetAvatar.cs" selected="True" />
               </Node>
             </Node>
           </Node>
