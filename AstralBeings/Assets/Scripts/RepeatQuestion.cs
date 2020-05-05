@@ -24,4 +24,8 @@ public class RepeatQuestion : MonoBehaviour
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+    public void RestartScene()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
