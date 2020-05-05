@@ -739,6 +739,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 65707379967860648, guid: d6b14317a0113e64e84e493bce065485,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.9019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 65707379967860648, guid: d6b14317a0113e64e84e493bce065485,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.025631895
+      objectReference: {fileID: 0}
+    - target: {fileID: 65707379967860648, guid: d6b14317a0113e64e84e493bce065485,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.13814524
+      objectReference: {fileID: 0}
+    - target: {fileID: 65707379967860648, guid: d6b14317a0113e64e84e493bce065485,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.33962262
+      objectReference: {fileID: 0}
     - target: {fileID: 65707380025763468, guid: d6b14317a0113e64e84e493bce065485,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -863,6 +883,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451669062862222621, guid: d6b14317a0113e64e84e493bce065485,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451669062862222621, guid: d6b14317a0113e64e84e493bce065485,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6b14317a0113e64e84e493bce065485, type: 3}

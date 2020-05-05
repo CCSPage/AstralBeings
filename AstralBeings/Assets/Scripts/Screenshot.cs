@@ -29,15 +29,15 @@ public class Screenshot : MonoBehaviour
             renderResult.ReadPixels(rect, 0, 0);
             
             ////
-            if (!System.IO.Directory.Exists(myFolderLocation))
+/*            if (!System.IO.Directory.Exists(myFolderLocation))
             {
                 System.IO.Directory.CreateDirectory(myFolderLocation);
-            }
+            }*/
 
             ////
             ///
             byte[] byteArray = renderResult.EncodeToPNG();
-            System.IO.File.WriteAllBytes(myLocation, byteArray);
+            System.IO.File.WriteAllBytes(defaultLocation, byteArray);
             Debug.Log("Saved CameraScreenshot.png");
 
             RenderTexture.ReleaseTemporary(renderTexture);
@@ -45,13 +45,13 @@ public class Screenshot : MonoBehaviour
            
             
             //
-            System.IO.File.Move(defaultLocation, myLocation);
+/*            System.IO.File.Move(defaultLocation, myLocation);
            
             AndroidJavaClass classPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
             AndroidJavaObject objActivity = classPlayer.GetStatic<AndroidJavaObject>("currentActivity");
             AndroidJavaClass classUri = new AndroidJavaClass("android.net.Uri");
             AndroidJavaObject objIntent = new AndroidJavaObject("android.content.Intent", new object[2] { "android.intent.action.MEDIA_MOUNTED", classUri.CallStatic<AndroidJavaObject>("parse", "file://" + myLocation) });
-            objActivity.Call("sendBroadcast", objIntent);
+            objActivity.Call("sendBroadcast", objIntent);*/
             //
         }
     }
