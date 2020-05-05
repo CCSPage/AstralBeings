@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 11592
+  controlID: 12665
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 11593
+  controlID: 12737
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 11594
+  controlID: 12738
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -391,9 +391,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a2380000
-      m_LastClickedID: 0
-      m_ExpandedIDs: b2b3ffff06b5ffff8abbffff5ac1ffffd2c2ffff94c3ffff08caffff4ed3ffff74e5ffff90f8ffff94f8ffff96f8ffffbcf8ffffe8f8ffff16f9ffff6cfbffff
+      m_SelectedIDs: 805f0000
+      m_LastClickedID: 24448
+      m_ExpandedIDs: c6b6ffffb8baffff3cbeffffd6caffff0cd7ffff5cdfffff90e7ffff58ebffff2cecffff3aefffff38f0ffffdcf1ffff36f8ffff12f9ffff38f9ffffd0faffff6cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -453,9 +453,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 312.50647, y: 123.2155, z: -68.0625}
+    m_Target: {x: -0.3478428, y: 0.22820383, z: -0.25390625}
     speed: 2
-    m_Value: {x: 312.50647, y: 123.2155, z: -68.0625}
+    m_Value: {x: -0.3478428, y: 0.22820383, z: -0.25390625}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -505,9 +505,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 534.1812
+    m_Target: 9.593369
     speed: 2
-    m_Value: 534.1812
+    m_Value: 9.593369
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -597,20 +597,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Sounds/AnswerSound
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Sounds/AnswerSound
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\My\Desktop\astral\AstralBeings\AstralBeings
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 22350000
-    m_LastClickedID: 13602
-    m_ExpandedIDs: 00000000fa340000fc340000fe34000000ca9a3b
+    m_SelectedIDs: 48350000
+    m_LastClickedID: 13640
+    m_ExpandedIDs: 0000000020350000223500002435000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -638,7 +638,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fa340000fc340000fe34000000ca9a3b
+    m_ExpandedIDs: 0000000020350000223500002435000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -690,7 +690,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 47}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
