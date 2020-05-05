@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\Outline.cs" />
     <Compile Include="Assets\Scripts\PosData.cs" />
     <Compile Include="Assets\Scripts\RepeatQuestion.cs" />
+    <Compile Include="Assets\Scripts\ScreenShotMobile.cs" />
     <Compile Include="Assets\Scripts\Screenshot.cs" />
     <Compile Include="Assets\Scripts\ScreenshotGame.cs" />
     <None Include="Assets\FacebookSDK\link.xml" />
