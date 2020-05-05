@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Nose.unity
+=======
+- path: Assets/Scenes/Legs.unity
+>>>>>>> 9a0554e9f9232528eaeb83c039d2268f1d3e079f
   isLoaded: 1
   isActive: 1
   isSubScene: 0
